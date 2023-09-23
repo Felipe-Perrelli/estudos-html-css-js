@@ -1,0 +1,167 @@
+/* geral */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: inter, sans-serif;
+}
+
+body {
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #0d0d0d;
+ color: #c7c7c7;
+}
+
+/*apresentação da empresa*/
+#about-container {
+    flex: 1.4rem;
+    padding: 2rem 4rem;
+}
+
+#about-container h2 {
+    font-size: 2.2rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    color: rgb(0, 198, 0);
+}
+
+#brand {
+    display: flex;
+    align-items: center ;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#brand img {
+    height: 50px;
+    width: 100px;
+    margin-right: 0.6rem;
+}
+
+#description2 {
+    max-width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+} 
+
+#about-container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+    gap: 1rem;
+    color: rgb(0, 198, 0);
+}
+
+#directory-container {
+   display: flex;
+   flex-wrap: wrap ;
+   gap: 1rem;
+}
+
+.directory-card {
+    border: 2px solid #c7c7c7;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+
+.directory-card img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.directory-card .directory-name {
+    font-weight: bold;
+    margin-bottom:0.6rem;
+}
+
+.user-card .user-role {
+    color: #c7c7c7;
+}
+
+/* formulario */
+
+#form-container {
+    flex: 1;
+    background-image:url("../img/pcprogramando.jpg") ;
+    background-size: cover;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+#form-inner {
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid rgb(0, 198, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inner h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#logo-title{
+   display: flex;
+}
+
+#logo2 {
+    height: 35px;
+    width: 35px;
+    margin-right: 0.6rem;
+}
+
+#form-inner p {
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#name-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#company-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#register-form input {
+    padding: 0.8rem 0.6rem;
+    border: none ;
+}
+
+#email {
+    min-width: 100%;
+}
+
+#register-form input[type="submit"] {
+background-color: #fff;
+color: gray;
+border: 2px solid #fff;
+font-size: 1.1rem;
+font-weight: bold;
+cursor: pointer;
+transition: 0.4s
+}
+
+#register-form input[type="submit"]:hover {
+    background-color: rgb(0, 198, 0) ;
+    color: #0d0d0d;
+}
